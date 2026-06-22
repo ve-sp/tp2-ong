@@ -40,23 +40,6 @@ h2{
     margin-bottom:20px;
 }
 
-.redes{
-    display: flex;
-    gap: 15px;
-    justify-content: center;
-}
-
-.redes img{
-    width: 30px;
-    height: 30px;
-    object-fit: contain;
-}
-
-.redes img:hover{
-    transform: scale(1.1);
-    transition: 0.3s;
-}
-
 
 .links a{
     display:block;
