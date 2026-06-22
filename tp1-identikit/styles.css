@@ -1,0 +1,498 @@
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #DEDBD2;
+    color: #4A5759;
+    text-align: center;
+}
+
+.intro{
+    text-align:center;
+    font-size:18px;
+    margin-top:10px;
+    color:#4a5759;
+}
+
+nav{
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+    background-color: #4A5759;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #F7E1D7;
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #EDAFB8;
+}
+
+
+.bloque {
+    width: 70%;
+    margin: 50px auto;
+    background-color: #F7E1D7;
+    padding: 30px;
+    border-radius: 15px;
+    line-height: 1.7;
+}
+
+.textoAnimacion{
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    gap:40px;
+}
+
+.TítuloAnimacion{
+    text-align: center;
+     
+}
+
+.animacion{
+    width: 70%;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+    line-height: 1.7;
+    display: flex;     
+    gap: 30px;         
+    align-items: center;
+
+}
+
+.gifCoraline{
+    display: inline-block;
+    border-radius: 15px;
+    transition:0.3s;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    
+}
+
+.gifCoraline:hover{
+    transform:scale(1.07);
+}
+
+.nombre {
+    font-family: 'Imperial Script', cursive; 
+    text-align:center;
+    font-size:80px;
+    margin:20px 0;
+}
+
+
+.bCarta{
+    width:60%;
+    margin:60px auto;
+    background:#F7E1D7;
+    padding:40px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+
+.carta-real {
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    text-align: left;
+}
+
+#carta{
+    transition:0.3s;
+}
+
+#carta:hover{
+    transform:scale(1.12) rotate(-2deg);
+}
+
+
+#corazon:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+table {
+    width: 100%;
+    background-color: #F7E1D7;
+    border: 3px solid #4A5759;
+    border-radius: 50px;
+
+}
+
+th {
+    border: 1px solid #4A5759;
+    padding:12px;
+}
+
+td{
+    border:1px solid #4A5759;
+    padding:12px;
+
+}
+
+th {
+    background-color: #B0C4B1;
+}
+
+.tabla-libros h2 {
+    margin-bottom: 20px;
+}
+
+.boton-trivia {  
+    background-color: #EDAFB8;
+    color: #4A5759;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    display:block;
+    width:fit-content;
+    margin:30px auto 0;
+}
+
+.boton-trivia:hover {
+    transform: scale(1.1);
+}
+
+.king{
+    width:70%;
+    margin:50px auto;
+    background:#F7E1D7;
+    padding:40px;
+    border-radius:15px;
+    line-height:1.7;
+}
+
+
+.king h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+
+.king-contenido{
+    display:flex;
+    align-items:center;
+    gap:40px;
+    flex-direction: row-reverse;
+}
+
+
+.king-texto{
+    flex:1;
+    text-align: right;
+}
+
+
+.foto-sk{
+    width:250px;
+    border-radius:12px;
+    transition:0.3s;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.foto-sk:hover{
+    transform:scale(1.07);
+}
+
+
+.historia-contenido {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.historia-especialidad, .historia-caf {
+    flex: 1;
+}
+
+
+.fotos {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.historia-foto {
+    flex: 1;
+    background-color: #B0C4B1;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.historia-foto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.historia-foto:hover{
+    transform:scale(1.07);
+}
+
+.cita-historia {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.cita-historia blockquote {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.cita-historia .autor {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.lista{
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+
+}
+
+
+.idioma {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.ingles{
+    position: relative;
+    padding-left: 50px;
+    background-color: #0e5bb3;
+    width: 300px;
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 15px;
+    line-height: 1.7;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    
+}
+
+
+.ingles:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+.francés{
+    position: relative;
+    padding-left: 50px;
+    background-color: #0055A4;
+    width: 300px;
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 15px;
+    line-height: 1.7;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+.francés:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+.chino{
+    position: relative;
+    padding-left: 50px;
+    background-color: #df786a;
+    width: 300px;
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 15px;
+    line-height: 1.7;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+.chino:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+.aleman{
+    position: relative;
+    padding-left: 50px;
+    background-color: #dabe4b;
+    width: 300px;
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 15px;
+    line-height: 1.7;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.aleman:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+.port{
+    position: relative;
+    padding-left: 50px;
+    background-color: #1b9347;
+    width: 300px;
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 15px;
+    line-height: 1.7;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.port:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+.audio-idioma{
+    margin-top: 15px;
+    width: 100%;
+    
+}
+
+.titulo-playfair {
+    font-family: "Playfair Display", serif;
+    font-weight: 500; 
+}
+
+.imperial-script {
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.contenedor-peliculas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+    margin: 50px auto;
+}
+
+
+.pelicula {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background-color: #F7E1D7;
+    margin: 15px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+
+    width: calc(50% - 30px);
+    box-sizing: border-box;
+
+}
+
+
+.poster {
+    width: 150px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.info {
+    max-width: 700px;
+}
+
+.info h2 {
+    margin-bottom: 10px;
+}
+
+
+.pelicula:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.pelicula:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+
+.footer {
+    background-color: #b0c4b1;
+    color: #dda6ae;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    height: 100px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top:80px;
+    padding:30px;
+}
+
+
+.footer .bichos {
+    display: flex;
+    align-items: center;    
+    justify-content: center; 
+    gap: 20px;        
+
+}
+
+
+.footer .bichos img {
+    width: 50px;
+    height: auto;
+
+}
+
+
+.footer .bichos p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.volver-arriba {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+    background-color: #dda6ae;
+    color: white;
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+    transition: 0.5s;
+}
+
+.volver-arriba:hover {
+    background-color: #a2797f;
+    transform: scale(1.4);
+}
